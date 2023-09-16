@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    margin-top: 110px;
+    color: white;
+    background-color: black;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    position: absolute;
+    top: 0;
+}
+
+.footer {
+    display: flex;
+    position: relative;
+    bottom: 0;
+}

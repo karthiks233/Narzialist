@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background: linear-gradient(
+        180deg,
+        rgb(0, 0, 0) 0%,
+        rgb(22, 69, 83)
+    );
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerLine {
+    display: block;
+    width: 30vw;
+    border-bottom: 1px solid rgb(100, 100, 100);
+}
+
+.imgContainer{
+    padding: {
+        left: 25px;
+        right: 25px;
+    }
+}
+
+.finalSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    margin-top: 15px;
+}
+
+.copyText {
+    font-size: 14px;
+    color: rgb(201, 201, 201);
+    margin-top: -10px;
+}

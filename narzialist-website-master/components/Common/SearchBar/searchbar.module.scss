@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    margin-top: 17px;
+}
+
+.searchForm {
+    display: flex;
+    flex-direction: row;
+}
+
+.searchBar {
+    height: 40px;
+}
+
+.searchBtn {
+    margin-left: 10px;
+    height: 40px;
+}
